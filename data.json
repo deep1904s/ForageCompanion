@@ -1,0 +1,1723 @@
+[
+  {
+  "name": "Almond Mushroom",
+  "scientific_name": "Agaricus subrufescens",
+  "edibility": "Edible",
+  "description": "A gilled mushroom with a sweet almond-like scent, often cultivated for medicinal properties.",
+  "habitat": "Warm climates, grassy areas, compost-rich soil",
+  "uses": ["Medicinal", "Immune-boosting"]
+  },
+  {
+  "name": "Amanita gemmata",
+  "scientific_name": "Amanita gemmata",
+  "edibility": "Toxic",
+  "description": "A yellowish cap covered with white warts, resembling a small Amanita muscaria.",
+  "habitat": "Coniferous and mixed forests in Europe and North America",
+  "toxicity": ["Ibotenic acid", "Muscimol"],
+  "effects": ["Hallucinations", "Nausea"]
+  },
+  {
+  "name": "Amethyst Chanterelle",
+  "scientific_name": "Cantharellus amethysteus",
+  "edibility": "Edible",
+  "description": "A vibrant purple chanterelle with a fruity aroma and funnel-shaped cap.",
+  "habitat": "Deciduous forests, often near oak or beech trees",
+  "uses": ["Culinary"]
+  },
+  {
+  "name": "Amethyst Deceiver",
+  "scientific_name": "Laccaria amethystina",
+  "edibility": "Edible but unremarkable",
+  "description": "A small, purple mushroom that fades with age, often found in mossy woodlands.",
+  "habitat": "Damp forests, especially under deciduous trees"
+  },
+  {
+  "name": "Aniseed Funnel",
+  "scientific_name": "Clitocybe odora",
+  "edibility": "Edible",
+  "description": "A pale blue-green mushroom with a strong aniseed scent.",
+  "habitat": "Mixed woodlands, grassy clearings",
+  "uses": ["Culinary (flavoring)"]
+  },
+  {
+  "name": "Ascot Hat",
+  "scientific_name": "Mycena californiensis",
+  "edibility": "Inedible",
+  "description": "A small, bell-shaped mushroom with a translucent cap, often found on decaying wood.",
+  "habitat": "Decaying logs and stumps in coastal regions"
+  },
+  {
+  "name": "Bay Bolete",
+  "scientific_name": "Imleria badia",
+  "edibility": "Edible",
+  "description": "A brown-capped bolete with a creamy pore surface that bruises blue.",
+  "habitat": "Coniferous forests, often near pine trees",
+  "uses": ["Culinary"]
+  },
+  {
+  "name": "Bearded Milkcap",
+  "scientific_name": "Lactarius pubescens",
+  "edibility": "Toxic",
+  "description": "A pale, fuzzy-capped mushroom with white latex that turns pink when exposed.",
+  "habitat": "Boreal forests, often near birch trees",
+  "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+  "name": "Beechwood Sickener",
+  "scientific_name": "Russula nobilis",
+  "edibility": "Toxic",
+  "description": "A bright red-capped mushroom with brittle white gills.",
+  "habitat": "Beech forests in Europe",
+  "toxicity": ["Gastrointestinal distress"]
+  },
+  {
+  "name": "Beefsteak Fungus",
+  "scientific_name": "Fistulina hepatica",
+  "edibility": "Edible",
+  "description": "A reddish, tongue-like fungus that resembles raw meat and bleeds a red liquid when cut.",
+  "habitat": "Oak trees, especially on wounds or stumps",
+  "uses": ["Culinary (when young)"]
+  },
+  {
+  "name": "Birch Polypore",
+  "scientific_name": "Fomitopsis betulina",
+  "edibility": "Inedible (tough)",
+  "description": "A bracket fungus with a pale upper surface and white pores, commonly found on birch trees.",
+  "habitat": "Dead or dying birch trees",
+  "uses": ["Medicinal (traditional)"]
+  },
+  {
+  "name": "Birch Woodwart",
+  "scientific_name": "Hypoxylon fuscum",
+  "edibility": "Inedible",
+  "description": "A small, black, crust-like fungus that grows on decaying birch wood.",
+  "habitat": "Dead birch branches and logs"
+  },
+  {
+  "name": "Bitter Beech Bolete",
+  "scientific_name": "Caloboletus calopus",
+  "edibility": "Inedible (bitter)",
+  "description": "A striking bolete with a red stem and yellow pores that bruise blue.",
+  "habitat": "Deciduous forests, especially under beech trees"
+  },
+  {
+  "name": "Bitter Bolete",
+  "scientific_name": "Tylopilus felleus",
+  "edibility": "Inedible (extremely bitter)",
+  "description": "A brown-capped bolete with a pinkish pore surface and a bitter taste.",
+  "habitat": "Coniferous and mixed forests"
+  },
+  {
+  "name": "Black Bulgar",
+  "scientific_name": "Bulgaria inquinans",
+  "edibility": "Inedible",
+  "description": "A black, gelatinous fungus that grows in clusters on dead oak wood.",
+  "habitat": "Dead oak branches and logs"
+  },
+  {
+  "name": "Black Morel",
+  "scientific_name": "Morchella elata",
+  "edibility": "Edible (cooked)",
+  "description": "A honeycombed, conical mushroom prized by foragers.",
+  "habitat": "Disturbed soils, burned areas, forests",
+  "uses": ["Culinary"]
+  },
+  {
+  "name": "Blackening Brittlegill",
+  "scientific_name": "Russula nigricans",
+  "edibility": "Inedible",
+  "description": "A white mushroom that turns black with age or when damaged.",
+  "habitat": "Deciduous forests"
+  },
+  {
+  "name": "Blackening Polypore",
+  "scientific_name": "Meripilus giganteus",
+  "edibility": "Edible (when young)",
+  "description": "A large, fan-shaped polypore that blackens when touched or aged.",
+  "habitat": "Base of deciduous trees, especially beech"
+  },
+  {
+  "name": "Blackening Waxcap",
+  "scientific_name": "Hygrocybe conica",
+  "edibility": "Toxic",
+  "description": "A brightly colored waxcap that turns black with age or handling.",
+  "habitat": "Grasslands, lawns, and mossy areas",
+  "toxicity": ["Gastrointestinal distress"]
+  },
+  {
+  "name": "Blue Roundhead",
+  "scientific_name": "Stropharia caerulea",
+  "edibility": "Inedible",
+  "description": "A blue-green mushroom with white gills and a sticky cap.",
+  "habitat": "Grassy areas, wood chips, and disturbed soils"
+  },
+  {
+    "name": "Blushing Bracket",
+    "scientific_name": "Daedaleopsis confragosa",
+    "edibility": "Inedible",
+    "description": "A tough, woody bracket fungus with a reddish-brown surface and maze-like pores.",
+    "habitat": "Dead hardwood trees, especially willow and birch"
+  },
+  {
+    "name": "Blushing Rosette",
+    "scientific_name": "Abortiporus biennis",
+    "edibility": "Inedible",
+    "description": "A irregularly shaped polypore that exudes red droplets when young.",
+    "habitat": "Stumps and logs of deciduous trees"
+  },
+  {
+    "name": "Blushing Wood Mushroom",
+    "scientific_name": "Agaricus silvaticus",
+    "edibility": "Edible",
+    "description": "A woodland mushroom with a white cap that stains pink when bruised.",
+    "habitat": "Coniferous forests, often near spruce or pine",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Bovine Bolete",
+    "scientific_name": "Suillus bovinus",
+    "edibility": "Edible (mediocre)",
+    "description": "A slimy-capped bolete with yellow pores, often found near pine trees.",
+    "habitat": "Pine forests, acidic soils"
+  },
+  {
+    "name": "Bronze Bolete",
+    "scientific_name": "Xerocomus badius",
+    "edibility": "Edible",
+    "description": "A dark brown bolete with a velvety cap and pores that bruise blue-green.",
+    "habitat": "Coniferous and mixed forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Brown Birch Bolete",
+    "scientific_name": "Leccinum scabrum",
+    "edibility": "Edible",
+    "description": "A brown-capped bolete with a scaly stem, commonly found under birch trees.",
+    "habitat": "Birch woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Brown Rollrim",
+    "scientific_name": "Paxillus involutus",
+    "edibility": "Toxic",
+    "description": "A brown, funnel-shaped mushroom with inrolled margins; causes severe immune reactions.",
+    "habitat": "Forests, often near birch or pine",
+    "toxicity": ["Paxillus syndrome (autoimmune hemolysis)"]
+  },
+  {
+    "name": "Bruising Webcap",
+    "scientific_name": "Cortinarius purpurascens",
+    "edibility": "Inedible",
+    "description": "A purple-tinged mushroom that bruises dark blue when handled.",
+    "habitat": "Coniferous forests"
+  },
+  {
+    "name": "Butter Cap",
+    "scientific_name": "Rickenella fibula",
+    "edibility": "Inedible",
+    "description": "A tiny, bright yellow mushroom with a gelatinous texture.",
+    "habitat": "Mossy forests and wetlands"
+  },
+  {
+    "name": "Cauliflower Fungus",
+    "scientific_name": "Sparassis crispa",
+    "edibility": "Edible",
+    "description": "A large, brain-like fungus with creamy-white folds, prized for its texture.",
+    "habitat": "Base of coniferous trees, especially pine",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Cedarwood Waxcap",
+    "scientific_name": "Hygrocybe russocoriacea",
+    "edibility": "Inedible",
+    "description": "A pale yellow waxcap with a distinctive cedarwood scent.",
+    "habitat": "Old grasslands, unfertilized meadows"
+  },
+  {
+    "name": "Chanterelle",
+    "scientific_name": "Cantharellus cibarius",
+    "edibility": "Edible",
+    "description": "A golden-yellow, funnel-shaped mushroom with a fruity aroma.",
+    "habitat": "Deciduous and coniferous forests",
+    "uses": ["Culinary (gourmet)"]
+  },
+  {
+    "name": "Charcoal Burner",
+    "scientific_name": "Russula cyanoxantha",
+    "edibility": "Edible",
+    "description": "A variable-colored Russula with flexible gills and a mild taste.",
+    "habitat": "Broadleaf forests, especially under oak",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Chestnut Bolete",
+    "scientific_name": "Gyroporus castaneus",
+    "edibility": "Edible",
+    "description": "A small, chestnut-brown bolete with brittle flesh and hollow stem.",
+    "habitat": "Sandy soils in deciduous forests"
+  },
+  {
+    "name": "Chicken of the Woods",
+    "scientific_name": "Laetiporus sulphureus",
+    "edibility": "Edible (when young)",
+    "description": "A bright orange, shelf-like fungus with a texture resembling chicken meat.",
+    "habitat": "Dead or dying hardwood trees (oak, cherry)",
+    "uses": ["Culinary (meat substitute)"]
+  },
+  {
+    "name": "Cinnamon Bracket",
+    "scientific_name": "Hapalopilus nidulans",
+    "edibility": "Inedible",
+    "description": "A soft, cinnamon-colored bracket fungus that grows on dead wood. When KOH solution is applied, it turns purple.",
+    "habitat": "Dead hardwood trees, especially oak and beech"
+  },
+  {
+    "name": "Clouded Agaric",
+    "scientific_name": "Clitocybe nebularis",
+    "edibility": "Poisonous",
+    "description": "A large, grayish mushroom with a funnel-shaped cap and crowded gills. Emits a strong, unpleasant odor.",
+    "habitat": "Deciduous and coniferous forests",
+    "toxicity": ["Gastrointestinal distress"],
+    "effects": ["Nausea", "Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Clustered Domecap",
+    "scientific_name": "Lyophyllum decastes",
+    "edibility": "Edible",
+    "description": "Grows in dense clusters with grayish-brown caps and white gills. Has a mild, pleasant taste.",
+    "habitat": "Forest edges, grassy areas",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Common Bonnet",
+    "scientific_name": "Mycena galericulata",
+    "edibility": "Inedible",
+    "description": "A small, bell-shaped mushroom with a striated cap. Often grows in clusters on decaying wood.",
+    "habitat": "Dead hardwood logs and stumps"
+  },
+  {
+    "name": "Common Inkcap",
+    "scientific_name": "Coprinopsis atramentaria",
+    "edibility": "Edible (with alcohol warning)",
+    "description": "A gray mushroom that deliquesces (turns into black ink) as it matures. Causes poisoning if consumed with alcohol.",
+    "habitat": "Lawns, meadows, disturbed ground",
+    "uses": ["Culinary (when young)"],
+    "warning": "Contains coprine which causes sickness when combined with alcohol"
+  },
+  {
+    "name": "Common Morel",
+    "scientific_name": "Morchella esculenta",
+    "edibility": "Edible (cooked)",
+    "description": "Highly prized mushroom with honeycomb-like pits on its cap. Must be cooked before eating.",
+    "habitat": "Woodlands, especially after fires",
+    "uses": ["Gourmet culinary"]
+  },
+  {
+    "name": "Common Puffball",
+    "scientific_name": "Lycoperdon perlatum",
+    "edibility": "Edible (when young and white inside)",
+    "description": "Round, white mushroom that releases spores through a hole when mature. Edible only when the interior is pure white.",
+    "habitat": "Grasslands, woods",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Common Rustgill",
+    "scientific_name": "Gymnopilus penetrans",
+    "edibility": "Inedible (bitter)",
+    "description": "Orange-brown mushroom with rusty orange spores. Has a very bitter taste.",
+    "habitat": "Conifer stumps and logs"
+  },
+  {
+    "name": "Crimped Gill",
+    "scientific_name": "Plicaturopsis crispa",
+    "edibility": "Inedible",
+    "description": "A small, fan-shaped fungus with crimped gills and a leathery texture.",
+    "habitat": "Dead hardwood branches"
+  },
+  {
+    "name": "Crimson Waxcap",
+    "scientific_name": "Hygrocybe punicea",
+    "edibility": "Edible",
+    "description": "Striking bright red mushroom with a waxy cap and gills. Color fades with age.",
+    "habitat": "Old, unfertilized grasslands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Cucumber Cap",
+    "scientific_name": "Macrocystidia cucumis",
+    "edibility": "Inedible",
+    "description": "Small brown mushroom with a distinctive cucumber-like odor.",
+    "habitat": "Leaf litter in woodlands"
+  },
+  {
+    "name": "Curry Milkcap",
+    "scientific_name": "Lactarius camphoratus",
+    "edibility": "Edible",
+    "description": "Small brown mushroom that exudes white latex and smells strongly of curry or maple syrup.",
+    "habitat": "Coniferous forests",
+    "uses": ["Culinary (flavoring)"]
+  },
+  {
+    "name": "Deadly Fibrecap",
+    "scientific_name": "Inocybe erubescens",
+    "edibility": "Deadly poisonous",
+    "description": "White to pinkish mushroom with fibrous cap. Contains deadly muscarine toxin.",
+    "habitat": "Deciduous forests, especially near beech",
+    "toxicity": ["Muscarine"],
+    "effects": ["Salivation", "Sweating", "Death in severe cases"]
+  },
+  {
+    "name": "Deadly Webcap",
+    "scientific_name": "Cortinarius rubellus",
+    "edibility": "Deadly poisonous",
+    "description": "Reddish-brown mushroom with a web-like veil. Causes kidney failure.",
+    "habitat": "Coniferous forests",
+    "toxicity": ["Orellanine"],
+    "effects": ["Delayed kidney failure (symptoms appear 2-14 days after ingestion)"]
+  },
+  {
+    "name": "Deathcap",
+    "scientific_name": "Amanita phalloides",
+    "edibility": "Deadly poisonous",
+    "description": "One of the most toxic mushrooms worldwide. Greenish-yellow cap with white gills and a sac-like volva at the base.",
+    "habitat": "Deciduous forests, especially near oak",
+    "toxicity": ["Amatoxins"],
+    "effects": ["Liver failure", "Death within 7-10 days without treatment"],
+    "warning": "Responsible for 90% of fatal mushroom poisonings"
+  },
+  {
+    "name": "Deer Shield",
+    "scientific_name": "Pluteus cervinus",
+    "edibility": "Edible",
+    "description": "A common woodland mushroom with a brown, radially streaked cap and free pinkish gills.",
+    "habitat": "Decaying wood, stumps, and sawdust",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Destroying Angel",
+    "scientific_name": "Amanita virosa",
+    "edibility": "Deadly poisonous",
+    "description": "Pure white mushroom with a sac-like volva at the base. One of the most toxic mushrooms known.",
+    "habitat": "Deciduous and mixed forests",
+    "toxicity": ["Amatoxins"],
+    "effects": ["Liver failure", "Death within 7-10 days without treatment"]
+  },
+  {
+    "name": "Devil's Bolete",
+    "scientific_name": "Rubroboletus satanas",
+    "edibility": "Poisonous",
+    "description": "Large bolete with a pale cap, red pores, and a bulbous red stem. Turns blue when bruised.",
+    "habitat": "Calcareous soils in deciduous forests",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Severe vomiting and diarrhea"]
+  },
+  {
+    "name": "Dog Stinkhorn",
+    "scientific_name": "Mutinus caninus",
+    "edibility": "Inedible",
+    "description": "Phallic-shaped fungus with a foul-smelling, slimy spore mass at the tip that attracts insects.",
+    "habitat": "Decaying wood and leaf litter",
+    "characteristics": ["Strong unpleasant odor"]
+  },
+  {
+    "name": "Dryad's Saddle",
+    "scientific_name": "Cerioporus squamosus",
+    "edibility": "Edible (when young)",
+    "description": "Large, scaly bracket fungus with a pattern resembling a pheasant's feathers. Has a cucumber-like aroma.",
+    "habitat": "Dead or dying hardwood trees",
+    "uses": ["Culinary (best when young and tender)"]
+  },
+  {
+    "name": "Dusky Puffball",
+    "scientific_name": "Bovista nigrescens",
+    "edibility": "Edible (when young)",
+    "description": "Small puffball that starts white but turns dark brown as it matures.",
+    "habitat": "Grasslands, lawns, and meadows",
+    "uses": ["Culinary (when interior is white)"]
+  },
+  {
+    "name": "Dyer's Mazegill",
+    "scientific_name": "Phaeolus schweinitzii",
+    "edibility": "Inedible",
+    "description": "Large, bracket-like polypore that produces yellow and green dyes. Causes root rot in trees.",
+    "habitat": "Conifer roots and stumps",
+    "uses": ["Natural dye production"]
+  },
+  {
+    "name": "Earthballs",
+    "scientific_name": "Scleroderma spp.",
+    "edibility": "Poisonous",
+    "description": "Round, potato-like fungi with a tough outer skin and dark, powdery interior when mature.",
+    "habitat": "Forest floors and disturbed soil",
+    "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+    "name": "Egghead Mottlegill",
+    "scientific_name": "Panaeolus semiovatus",
+    "edibility": "Inedible",
+    "description": "Tall, slender mushroom with a bell-shaped cap that has a distinctive egg-like appearance when young.",
+    "habitat": "Horse and cow dung, fertilized grasslands"
+  },
+  {
+    "name": "Elfin Saddle",
+    "scientific_name": "Helvella lacunosa",
+    "edibility": "Edible (with caution)",
+    "description": "Black, saddle-shaped mushroom with a deeply ribbed and pitted stem.",
+    "habitat": "Deciduous and coniferous forests",
+    "warning": "Must be cooked thoroughly; some similar species are toxic"
+  },
+  {
+    "name": "Fairy Ring Champignon",
+    "scientific_name": "Marasmius oreades",
+    "edibility": "Edible",
+    "description": "Small, tan mushroom that grows in circular patterns called fairy rings. Has a sweet, almond-like smell.",
+    "habitat": "Lawns, meadows, and grasslands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "False Chanterelle",
+    "scientific_name": "Hygrophoropsis aurantiaca",
+    "edibility": "Edible (but poor quality)",
+    "description": "Orange mushroom resembling a true chanterelle but with true gills rather than ridges.",
+    "habitat": "Coniferous forests",
+    "note": "Often confused with edible chanterelles"
+  },
+  {
+    "name": "False Deathcap",
+    "scientific_name": "Amanita citrina",
+    "edibility": "Poisonous (but less toxic than true deathcap)",
+    "description": "Yellow or white mushroom with a sac-like volva, resembling the deadly deathcap.",
+    "habitat": "Deciduous and coniferous forests",
+    "toxicity": ["Mild gastrointestinal distress"]
+  },
+  {
+    "name": "False Morel",
+    "scientific_name": "Gyromitra esculenta",
+    "edibility": "Poisonous (can be fatal)",
+    "description": "Brain-like or saddle-shaped mushroom that resembles true morels. Contains gyromitrin toxin.",
+    "habitat": "Coniferous forests, especially after fires",
+    "toxicity": ["Gyromitrin"],
+    "effects": ["Neurological symptoms", "Liver damage", "Potentially fatal"]
+  },
+  {
+    "name": "False Saffron Milkcap",
+    "scientific_name": "Lactarius deterrimus",
+    "edibility": "Edible (but inferior)",
+    "description": "Orange mushroom that exudes carrot-colored milk. Less desirable than true saffron milkcap.",
+    "habitat": "Coniferous forests, especially under spruce",
+    "uses": ["Culinary (when properly prepared)"]
+  },
+  {
+    "name": "Fenugreek Milkcap",
+    "scientific_name": "Lactarius helvus",
+    "edibility": "Poisonous",
+    "description": "Pale brown mushroom with a strong fenugreek or curry-like odor when dried.",
+    "habitat": "Damp coniferous forests",
+    "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+    "name": "Field Blewit",
+    "scientific_name": "Lepista personata",
+    "edibility": "Edible",
+    "description": "Large, lilac-tinged mushroom with a smooth cap and crowded gills. Smells floral.",
+    "habitat": "Grasslands, fields, and woodland edges",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Field Mushroom",
+    "scientific_name": "Agaricus campestris",
+    "edibility": "Edible",
+    "description": "Classic white mushroom with pink gills that turn brown. The wild version of supermarket mushrooms.",
+    "habitat": "Fields, lawns, and pastures",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Fleecy Milkcap",
+    "scientific_name": "Lactarius vellereus",
+    "edibility": "Inedible (extremely acrid)",
+    "description": "Large, white mushroom with a woolly cap surface and very hot-tasting latex.",
+    "habitat": "Deciduous forests, especially under beech"
+  },
+  {
+    "name": "Fly Agaric",
+    "scientific_name": "Amanita muscaria",
+    "edibility": "Poisonous/Hallucinogenic",
+    "description": "Iconic red mushroom with white spots. Contains psychoactive compounds.",
+    "habitat": "Under birch and pine trees",
+    "toxicity": ["Muscimol", "Ibotenic acid"],
+    "effects": ["Hallucinations", "Nausea", "Delirium in high doses"],
+    "note": "Used traditionally in some cultures for its psychoactive properties"
+  },
+  {
+    "name": "Fool's Funnel",
+    "scientific_name": "Clitocybe rivulosa",
+    "edibility": "Deadly poisonous",
+    "description": "Small white funnel-shaped mushroom often growing in fairy rings. Extremely toxic and easily confused with edible species.",
+    "habitat": "Lawns, meadows, and grassy areas",
+    "toxicity": ["Muscarine"],
+    "effects": ["Excessive salivation", "Sweating", "Respiratory failure"]
+  },
+  {
+    "name": "Fragrant Funnel",
+    "scientific_name": "Clitocybe fragrans",
+    "edibility": "Inedible",
+    "description": "Pale buff-colored mushroom with a strong aniseed odor and funnel-shaped cap.",
+    "habitat": "Coniferous and mixed woodlands"
+  },
+  {
+    "name": "Freckled Dapperling",
+    "scientific_name": "Echinoderma asperum",
+    "edibility": "Inedible",
+    "description": "Brown mushroom covered with distinctive dark scales or freckles on its cap.",
+    "habitat": "Woodlands and grassy areas"
+  },
+  {
+    "name": "Frosted Chanterelle",
+    "scientific_name": "Cantharellus friesii",
+    "edibility": "Edible",
+    "description": "Small yellow chanterelle with a frosted or powdery appearance on its cap.",
+    "habitat": "Deciduous forests, especially under beech",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Funeral Bell",
+    "scientific_name": "Galerina marginata",
+    "edibility": "Deadly poisonous",
+    "description": "Small brown mushroom containing the same deadly amatoxins as the death cap.",
+    "habitat": "Decaying conifer wood",
+    "toxicity": ["Amatoxins"],
+    "effects": ["Liver failure", "Potentially fatal"]
+  },
+  {
+    "name": "Geranium Brittlegill",
+    "scientific_name": "Russula fellea",
+    "edibility": "Inedible",
+    "description": "Yellowish mushroom with a strong geranium-like odor and very hot taste.",
+    "habitat": "Broadleaf forests"
+  },
+  {
+    "name": "Giant Funnel",
+    "scientific_name": "Leucopaxillus giganteus",
+    "edibility": "Edible",
+    "description": "Massive white funnel-shaped mushroom that can grow up to 40cm across.",
+    "habitat": "Grassy areas and woodland edges",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Giant Puffball",
+    "scientific_name": "Calvatia gigantea",
+    "edibility": "Edible (when young)",
+    "description": "Enormous spherical mushroom that can reach football size. Must be pure white inside to eat.",
+    "habitat": "Fields, meadows, and open woodlands",
+    "uses": ["Culinary"],
+    "note": "One of the largest mushroom species"
+  },
+  {
+    "name": "Glistening Inkcap",
+    "scientific_name": "Coprinellus micaceus",
+    "edibility": "Edible (when young)",
+    "description": "Small mushroom with a bell-shaped, grooved cap covered in glistening mica-like particles when young.",
+    "habitat": "Clusters on decaying wood",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Golden Bootleg",
+    "scientific_name": "Phaeolepiota aurea",
+    "edibility": "Poisonous",
+    "description": "Attractive golden-yellow mushroom with a powdery cap and ring on the stem.",
+    "habitat": "Disturbed ground and woodland edges",
+    "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+    "name": "Golden Scalycap",
+    "scientific_name": "Pholiota aurivella",
+    "edibility": "Inedible",
+    "description": "Yellow-orange mushroom with distinctive golden scales on the cap.",
+    "habitat": "Clusters on living or dead trees"
+  },
+  {
+    "name": "Golden Waxcap",
+    "scientific_name": "Hygrocybe chlorophana",
+    "edibility": "Edible",
+    "description": "Bright yellow, waxy mushroom that maintains its color well into maturity.",
+    "habitat": "Old, unimproved grasslands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Greencracked Brittlegill",
+    "scientific_name": "Russula virescens",
+    "edibility": "Edible",
+    "description": "Unique mushroom with a green cap that cracks into patches revealing white flesh underneath.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Grey Knight",
+    "scientific_name": "Tricholoma terreum",
+    "edibility": "Edible (with caution)",
+    "description": "Small grey mushroom with a fibrous cap and white gills. Some similar species are toxic.",
+    "habitat": "Coniferous forests",
+    "warning": "Can be confused with poisonous relatives"
+  },
+  {
+    "name": "Grey Spotted Amanita",
+    "scientific_name": "Amanita excelsa",
+    "edibility": "Poisonous",
+    "description": "Grey-capped Amanita with whitish warts and a swollen base. Causes gastrointestinal upset.",
+    "habitat": "Deciduous and coniferous forests",
+    "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+    "name": "Grisettes",
+    "scientific_name": "Amanita vaginata",
+    "edibility": "Edible (with caution)",
+    "description": "Grey mushroom with a striated cap margin and sack-like volva but no ring.",
+    "habitat": "Woodlands",
+    "warning": "Must be distinguished from deadly Amanitas"
+  },
+  {
+    "name": "Hairy Curtain Crust",
+    "scientific_name": "Stereum hirsutum",
+    "edibility": "Inedible",
+    "description": "Thin, leathery bracket fungus with a hairy upper surface and orange-brown underside.",
+    "habitat": "Dead hardwood branches"
+  },
+  {
+    "name": "Heath Waxcap",
+    "scientific_name": "Hygrocybe laeta",
+    "edibility": "Inedible",
+    "description": "Small, bright red-orange waxcap that fades with age.",
+    "habitat": "Heathlands and acidic grasslands"
+  },
+  {
+    "name": "Hedgehog Fungus",
+    "scientific_name": "Hydnum repandum",
+    "edibility": "Edible",
+    "description": "Pale orange mushroom with spines instead of gills under the cap. Has a pleasant nutty flavor.",
+    "habitat": "Deciduous and coniferous forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Hen of the Woods",
+    "scientific_name": "Grifola frondosa",
+    "edibility": "Edible",
+    "description": "Large, clustered mushroom with multiple grey-brown caps. Also known as Maitake.",
+    "habitat": "Base of oak trees",
+    "uses": ["Culinary", "Medicinal"],
+    "note": "Prized in Japanese cuisine"
+  },
+  {
+    "name": "Honey Fungus",
+    "scientific_name": "Armillaria mellea",
+    "edibility": "Edible (with caution)",
+    "description": "Golden-brown mushrooms that grow in clusters with white spores. Known for their bioluminescent mycelium.",
+    "habitat": "Base of trees and stumps, especially deciduous",
+    "uses": ["Culinary (must be cooked well)"],
+    "warning": "Can cause stomach upset in some people; parasitic to trees"
+  },
+  {
+    "name": "Hoof Fungus",
+    "scientific_name": "Fomes fomentarius",
+    "edibility": "Inedible",
+    "description": "Hard, hoof-shaped bracket fungus with concentric zones. Historically used as tinder.",
+    "habitat": "Birch and beech trees",
+    "uses": ["Traditional tinder (amadou)"]
+  },
+  {
+    "name": "Horn of Plenty",
+    "scientific_name": "Craterellus cornucopioides",
+    "edibility": "Edible",
+    "description": "Dark gray to black trumpet-shaped mushroom with a delicate flavor. Also called 'black trumpet'.",
+    "habitat": "Deciduous forests, especially in mossy areas",
+    "uses": ["Gourmet culinary"]
+  },
+  {
+    "name": "Horse Mushroom",
+    "scientific_name": "Agaricus arvensis",
+    "edibility": "Edible",
+    "description": "Large white mushroom with pink gills turning chocolate brown. Smells of anise when young.",
+    "habitat": "Grasslands, pastures, and meadows",
+    "uses": ["Culinary"],
+    "note": "Similar to field mushroom but larger"
+  },
+  {
+    "name": "Inky Mushroom",
+    "scientific_name": "Coprinopsis atramentaria",
+    "edibility": "Edible (with alcohol warning)",
+    "description": "Gray mushroom that deliquesces into black ink. Causes poisoning if consumed with alcohol.",
+    "habitat": "Lawns, meadows, and disturbed ground",
+    "warning": "Contains coprine which reacts with alcohol"
+  },
+  {
+    "name": "Jelly Ears",
+    "scientific_name": "Auricularia auricula-judae",
+    "edibility": "Edible",
+    "description": "Brown, ear-shaped gelatinous fungus that grows on elder trees. Common in Asian cuisine.",
+    "habitat": "Elder trees and other hardwoods",
+    "uses": ["Culinary", "Traditional medicine"]
+  },
+  {
+    "name": "Jelly Tooth",
+    "scientific_name": "Pseudohydnum gelatinosum",
+    "edibility": "Edible",
+    "description": "Translucent gelatinous fungus with tooth-like spines underneath.",
+    "habitat": "Conifer logs and stumps",
+    "uses": ["Culinary (in salads)"]
+  },
+  {
+    "name": "Jubilee Waxcap",
+    "scientific_name": "Hygrocybe splendidissima",
+    "edibility": "Inedible",
+    "description": "Bright red waxcap that was discovered during Queen Victoria's Diamond Jubilee celebrations.",
+    "habitat": "Ancient, unimproved grasslands"
+  },
+  {
+    "name": "King Alfred's Cakes",
+    "scientific_name": "Daldinia concentrica",
+    "edibility": "Inedible",
+    "description": "Hard, coal-like fungus that grows on ash trees. Named after the burnt cakes legend of King Alfred.",
+    "habitat": "Dead ash trees",
+    "uses": ["Traditional tinder"]
+  },
+  {
+    "name": "Larch Bolete",
+    "scientific_name": "Suillus grevillei",
+    "edibility": "Edible (with caution)",
+    "description": "A bolete with a slimy yellow-orange cap and yellow pores, often found near larch trees.",
+    "habitat": "Symbiotic with larch trees, common in temperate forests",
+    "uses": ["Culinary (requires removal of slimy cap skin)"]
+  },
+  {
+    "name": "Leccinum albostipitatum",
+    "scientific_name": "Leccinum albostipitatum",
+    "edibility": "Edible (when cooked)",
+    "description": "A bolete with a scaly stem and a reddish-brown cap, turning black when bruised.",
+    "habitat": "Found in deciduous forests, often near birch or aspen",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Liberty Cap",
+    "scientific_name": "Psilocybe semilanceata",
+    "edibility": "Psychoactive (toxic if consumed raw)",
+    "description": "A small, conical mushroom with a nipple-like protrusion, known for its psychedelic properties.",
+    "habitat": "Grassy fields, meadows, and pastures",
+    "toxicity": ["Psilocybin", "Psilocin"],
+    "effects": ["Hallucinations", "Altered perception"]
+  },
+  {
+    "name": "Lilac Bonnet",
+    "scientific_name": "Mycena pura",
+    "edibility": "Toxic",
+    "description": "A small, delicate mushroom with a lilac-colored cap and white gills.",
+    "habitat": "Deciduous and coniferous forests, often on decaying wood",
+    "toxicity": ["Muscarine (in some variants)"],
+    "effects": ["Gastrointestinal distress"]
+  },
+  {
+    "name": "Lilac Fibrecap",
+    "scientific_name": "Inocybe geophylla var. lilacina",
+    "edibility": "Toxic",
+    "description": "A small, lilac-colored mushroom with a fibrous cap and brown gills.",
+    "habitat": "Woodlands, often in mossy or grassy areas",
+    "toxicity": ["Muscarine"],
+    "effects": ["Sweating", "Nausea", "Vision problems"]
+  },
+  {
+    "name": "Lion's Mane",
+    "scientific_name": "Hericium erinaceus",
+    "edibility": "Edible",
+    "description": "A unique mushroom with long, cascading spines resembling a lion's mane.",
+    "habitat": "Grows on hardwood trees, particularly beech and oak",
+    "uses": ["Culinary", "Medicinal (nerve regeneration)"]
+  },
+  {
+    "name": "Lurid Bolete",
+    "scientific_name": "Suillus luridus",
+    "edibility": "Edible (with caution)",
+    "description": "A bolete with a reddish-brown cap and yellow pores that bruise blue.",
+    "habitat": "Often found near larch trees in Europe and North America",
+    "uses": ["Culinary (requires thorough cooking)"]
+  },
+  {
+    "name": "Macro Mushroom",
+    "scientific_name": "Macrolepiota procera",
+    "edibility": "Edible",
+    "description": "A tall, parasol-shaped mushroom with a scaly cap and a movable ring on the stem.",
+    "habitat": "Grassy areas, open woodlands, and fields",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Magpie Inkcap",
+    "scientific_name": "Coprinopsis picacea",
+    "edibility": "Inedible (toxic)",
+    "description": "A distinctive mushroom with a white cap covered in black patches, resembling a magpie.",
+    "habitat": "Deciduous forests, often near rotting wood",
+    "toxicity": ["Unknown compounds, possibly gastrointestinal irritants"]
+  },
+  {
+    "name": "Meadow Waxcap",
+    "scientific_name": "Cuphophyllus pratensis",
+    "edibility": "Edible",
+    "description": "A bright orange-yellow mushroom with a waxy texture, often found in grasslands.",
+    "habitat": "Meadows, lawns, and pastures",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Medusa Mushroom",
+    "scientific_name": "Podostroma cornu-damae",
+    "edibility": "Deadly Poisonous",
+    "description": "A rare, red mushroom with finger-like projections, resembling Medusa's hair.",
+    "habitat": "Forests in Asia (Japan, Korea, Indonesia)",
+    "toxicity": ["Trichothecene mycotoxins"],
+    "effects": ["Organ failure", "Death if ingested"]
+  },
+  {
+    "name": "Morel",
+    "scientific_name": "Morchella spp.",
+    "edibility": "Edible (highly prized)",
+    "description": "A honeycomb-patterned mushroom with a hollow stem and cap.",
+    "habitat": "Woodlands, burned areas, and disturbed soil",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Mosaic Puffball",
+    "scientific_name": "Lycoperdon utriforme",
+    "edibility": "Edible (when young and white inside)",
+    "description": "A puffball with a mosaic-like outer skin, releasing spores when mature.",
+    "habitat": "Grasslands, meadows, and open woodlands",
+    "uses": ["Culinary (only when immature)"]
+  },
+  {
+    "name": "Oak Bolete",
+    "scientific_name": "Boletus reticulatus",
+    "edibility": "Edible",
+    "description": "A bolete with a brown, reticulated stem and a velvety cap.",
+    "habitat": "Symbiotic with oak trees in Europe",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Oak Mazegill",
+    "scientific_name": "Daedalea quercina",
+    "edibility": "Inedible (too tough)",
+    "description": "A bracket fungus with maze-like gills, growing on oak wood.",
+    "habitat": "Dead or decaying oak trees",
+    "uses": ["Dye-making (produces brown pigments)"]
+  },
+  {
+    "name": "Oak Polypore",
+    "scientific_name": "Piptoporus quercinus",
+    "edibility": "Inedible",
+    "description": "A large, hoof-shaped polypore that grows exclusively on oak trees.",
+    "habitat": "Mature oak woodlands",
+    "uses": ["Traditional medicine (limited)"]
+  },
+  {
+    "name": "Ochre Brittlegill",
+    "scientific_name": "Russula ochroleuca",
+    "edibility": "Edible (mild taste)",
+    "description": "A brittle mushroom with an ochre-yellow cap and white gills.",
+    "habitat": "Deciduous and coniferous forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Old Man of the Woods",
+    "scientific_name": "Strobilomyces strobilaceus",
+    "edibility": "Edible (mediocre quality)",
+    "description": "A shaggy, black-and-white bolete with a scaly cap.",
+    "habitat": "Mixed forests, often near conifers",
+    "uses": ["Culinary (not highly prized)"]
+  },
+  {
+    "name": "Orange Birch Bolete",
+    "scientific_name": "Leccinum versipelle",
+    "edibility": "Edible (when cooked)",
+    "description": "A bolete with an orange cap and a scaly stem that turns black when cut.",
+    "habitat": "Symbiotic with birch trees",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Orange Bolete",
+    "scientific_name": "Leccinum aurantiacum",
+    "edibility": "Edible (when cooked)",
+    "description": "A bolete with a bright orange cap and a white stem covered in dark scales.",
+    "habitat": "Found near aspen and poplar trees",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Orange Grisette",
+    "scientific_name": "Amanita crocea",
+    "edibility": "Edible (with caution)",
+    "description": "An orange-capped Amanita with a sack-like volva at the base.",
+    "habitat": "Deciduous forests, often near birch or beech",
+    "uses": ["Culinary (must be properly identified)"]
+  },
+  {
+    "name": "Orange Peel Fungus",
+    "scientific_name": "Aleuria aurantia",
+    "edibility": "Edible (but insignificant)",
+    "description": "A bright orange, cup-shaped fungus resembling discarded orange peels.",
+    "habitat": "Disturbed soil, paths, and grassy areas",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Oyster Mushroom",
+    "scientific_name": "Pleurotus ostreatus",
+    "edibility": "Edible (highly prized)",
+    "description": "A fan-shaped, shelf-like mushroom with a smooth, grayish cap and white gills.",
+    "habitat": "Decaying hardwood logs and stumps",
+    "uses": ["Culinary", "Medicinal (cholesterol-lowering)"]
+  },
+  {
+    "name": "Pale Oyster",
+    "scientific_name": "Pleurotus pulmonarius",
+    "edibility": "Edible",
+    "description": "A lighter-colored variant of the oyster mushroom with a delicate flavor.",
+    "habitat": "Deciduous woodlands, fallen trees",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Panthercap",
+    "scientific_name": "Amanita pantherina",
+    "edibility": "Deadly Poisonous",
+    "description": "A brownish cap with white warts, resembling the deadly Death Cap.",
+    "habitat": "Coniferous and deciduous forests",
+    "toxicity": ["Muscimol", "Ibotenic acid"],
+    "effects": ["Hallucinations", "Seizures", "Death in high doses"]
+  },
+  {
+    "name": "Parasol",
+    "scientific_name": "Macrolepiota procera",
+    "edibility": "Edible (choice)",
+    "description": "A tall mushroom with a scaly cap and a snake-like patterned stem.",
+    "habitat": "Grasslands, open woodlands",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Parrot Waxcap",
+    "scientific_name": "Gliophorus psittacinus",
+    "edibility": "Edible (but slimy)",
+    "description": "A small, brightly colored mushroom with a slimy green or yellow cap.",
+    "habitat": "Grasslands, lawns, and mossy areas",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Pavement Mushroom",
+    "scientific_name": "Agaricus bitorquis",
+    "edibility": "Edible",
+    "description": "A robust mushroom often found pushing through pavement cracks.",
+    "habitat": "Urban areas, compacted soil",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Penny Bun",
+    "scientific_name": "Boletus edulis",
+    "edibility": "Edible (highly prized)",
+    "description": "A thick, brown-capped bolete with a spongy pore surface.",
+    "habitat": "Coniferous and deciduous forests",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Peppery Bolete",
+    "scientific_name": "Chalciporus piperatus",
+    "edibility": "Edible (but peppery)",
+    "description": "A small bolete with a reddish-brown cap and a spicy taste.",
+    "habitat": "Coniferous woodlands",
+    "uses": ["Spice (in small quantities)"]
+  },
+  {
+    "name": "Pestle Puffball",
+    "scientific_name": "Handkea utriformis",
+    "edibility": "Edible (when young and white inside)",
+    "description": "A pear-shaped puffball with a rough outer skin.",
+    "habitat": "Grasslands, meadows",
+    "uses": ["Culinary (only immature specimens)"]
+  },
+  {
+    "name": "Pine Bolete",
+    "scientific_name": "Suillus luteus",
+    "edibility": "Edible (with slimy cap removed)",
+    "description": "A yellow-capped bolete with a sticky surface, often found near pines.",
+    "habitat": "Pine forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Pink Waxcap",
+    "scientific_name": "Hygrocybe calyptriformis",
+    "edibility": "Edible (but rare)",
+    "description": "A striking pink mushroom with a waxy texture.",
+    "habitat": "Unfertilized grasslands",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Plums and Custard",
+    "scientific_name": "Tricholomopsis rutilans",
+    "edibility": "Edible (mediocre)",
+    "description": "A purple-and-yellow mushroom with a fruity smell.",
+    "habitat": "Conifer stumps and decaying wood",
+    "uses": ["Culinary (not highly valued)"]
+  },
+  {
+    "name": "Poison Pie",
+    "scientific_name": "Hebeloma crustuliniforme",
+    "edibility": "Toxic",
+    "description": "A small brown mushroom with a radish-like odor.",
+    "habitat": "Woodlands, grassy areas",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Poplar Bell",
+    "scientific_name": "Pluteus cervinus",
+    "edibility": "Edible (but mediocre)",
+    "description": "A gray-brown mushroom with free gills, often found on decaying wood.",
+    "habitat": "Decaying logs, especially poplar",
+    "uses": ["Culinary (not highly prized)"]
+  },
+  {
+    "name": "Poplar Fieldcap",
+    "scientific_name": "Agrocybe praecox",
+    "edibility": "Edible (with caution)",
+    "description": "A small, brown mushroom that grows in clusters near poplars.",
+    "habitat": "Grasslands, wood edges",
+    "uses": ["Culinary (must be properly identified)"]
+  },
+  {
+    "name": "Porcelain Fungus",
+    "scientific_name": "Oudemansiella mucida",
+    "edibility": "Edible (slimy texture)",
+    "description": "A translucent white mushroom with a slimy cap, growing on beech trees.",
+    "habitat": "Beech woodlands",
+    "uses": ["Culinary (requires washing)"]
+  },
+  {
+    "name": "Powdery Brittlegill",
+    "scientific_name": "Russula parazurea",
+    "edibility": "Edible",
+    "description": "A blue-gray capped mushroom with a powdery surface.",
+    "habitat": "Deciduous forests, especially oak",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Purple Brittlegill",
+    "scientific_name": "Russula atropurpurea",
+    "edibility": "Edible (mild taste)",
+    "description": "A dark purple mushroom with brittle white gills.",
+    "habitat": "Oak and beech woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Red-Belted Bracket",
+    "scientific_name": "Fomitopsis pinicola",
+    "edibility": "Inedible (too tough)",
+    "description": "A woody bracket fungus with red and cream bands.",
+    "habitat": "Dead conifer trees",
+    "uses": ["Dye-making", "Traditional medicine"]
+  },
+  {
+    "name": "Red Cracking Bolete",
+    "scientific_name": "Xerocomellus chrysenteron",
+    "edibility": "Edible (but mediocre)",
+    "description": "A reddish-brown bolete with a cracked cap surface.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Root Rot",
+    "scientific_name": "Heterobasidion annosum",
+    "edibility": "Inedible (pathogenic)",
+    "description": "A fungus that causes root rot in conifer trees.",
+    "habitat": "Coniferous forests",
+    "toxicity": ["Destroys trees"]
+  },
+  {
+    "name": "Rooting Bolete",
+    "scientific_name": "Boletus radicans",
+    "edibility": "Inedible (bitter)",
+    "description": "A large, pale bolete with a deeply rooting stem.",
+    "habitat": "Deciduous woodlands",
+    "toxicity": ["Causes gastrointestinal upset"]
+  },
+  {
+    "name": "Rooting Shank",
+    "scientific_name": "Xerula radicata",
+    "edibility": "Edible (but tough)",
+    "description": "A tall, slender mushroom with a deeply rooted stem.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary (requires thorough cooking)"]
+  },
+  {
+    "name": "Rosy Bonnet",
+    "scientific_name": "Mycena rosea",
+    "edibility": "Toxic",
+    "description": "A small pink mushroom with a delicate appearance.",
+    "habitat": "Deciduous leaf litter",
+    "toxicity": ["Muscarine (suspected)"],
+    "effects": ["Gastrointestinal distress"]
+  },
+  {
+    "name": "Ruby Bolete",
+    "scientific_name": "Hortiboletus rubellus",
+    "edibility": "Edible",
+    "description": "A small, reddish bolete with yellow pores.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Saffron Milkcap",
+    "scientific_name": "Lactarius deliciosus",
+    "edibility": "Edible (prized)",
+    "description": "An orange mushroom that exudes a carrot-colored latex when cut.",
+    "habitat": "Pine woodlands",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Scaly Wood Mushroom",
+    "scientific_name": "Agaricus langei",
+    "edibility": "Edible",
+    "description": "A white mushroom with brown scales and a pleasant almond scent.",
+    "habitat": "Coniferous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Scarlet Caterpillarclub",
+    "scientific_name": "Cordyceps militaris",
+    "edibility": "Edible (medicinal)",
+    "description": "A bright orange fungus that parasitizes insect larvae.",
+    "habitat": "Forest soils where insects are present",
+    "uses": ["Medicinal (immune support)"]
+  },
+  {
+    "name": "Scarlet Elf Cup",
+    "scientific_name": "Sarcoscypha coccinea",
+    "edibility": "Edible (but tough)",
+    "description": "A bright red, cup-shaped fungus growing on decaying wood.",
+    "habitat": "Damp deciduous woodlands",
+    "uses": ["Ornamental", "Traditional dye"]
+  },
+  {
+    "name": "Scarlet Waxcap",
+    "scientific_name": "Hygrocybe coccinea",
+    "edibility": "Edible (but not highly regarded)",
+    "description": "A small, bright red mushroom with a waxy texture, often found in unfertilized grasslands.",
+    "habitat": "Grasslands, lawns, and mossy areas",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Scarletina Bolete",
+    "scientific_name": "Neoboletus luridiformis",
+    "edibility": "Edible (when cooked, but can cause stomach upset in some)",
+    "description": "A striking bolete with a dark red stem and yellow pores that bruise blue.",
+    "habitat": "Coniferous and deciduous forests",
+    "uses": ["Culinary (requires thorough cooking)"]
+  },
+  {
+    "name": "Semifree Morel",
+    "scientific_name": "Morchella semilibera",
+    "edibility": "Edible (choice)",
+    "description": "A morel with a honeycombed cap that is only partially attached to the stem.",
+    "habitat": "Woodlands, especially near ash and elm trees",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Sepia Bolete",
+    "scientific_name": "Xerocomus ferrugineus",
+    "edibility": "Edible (mediocre)",
+    "description": "A brownish bolete with a velvety cap and yellow pores.",
+    "habitat": "Coniferous forests, often near spruce",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Shaggy Bracket",
+    "scientific_name": "Inonotus hispidus",
+    "edibility": "Inedible (too tough)",
+    "description": "A large, hairy bracket fungus that grows on living or dead hardwood trees.",
+    "habitat": "Deciduous forests, especially on ash and oak",
+    "uses": ["Dye-making (produces brown colors)"]
+  },
+  {
+    "name": "Shaggy Inkcap",
+    "scientific_name": "Coprinus comatus",
+    "edibility": "Edible (when young, before gills blacken)",
+    "description": "A tall, white mushroom with shaggy scales that dissolves into black ink as it matures.",
+    "habitat": "Lawns, meadows, and disturbed soils",
+    "uses": ["Culinary (must be cooked quickly)"]
+  },
+  {
+    "name": "Shaggy Parasol",
+    "scientific_name": "Chlorophyllum rhacodes",
+    "edibility": "Edible (but can cause stomach upset in some)",
+    "description": "A large mushroom with a scaly cap and a double-edged ring on the stem.",
+    "habitat": "Woodlands, gardens, and grassy areas",
+    "uses": ["Culinary (caution advised)"]
+  },
+  {
+    "name": "Shaggy Scalycap",
+    "scientific_name": "Pholiota squarrosa",
+    "edibility": "Edible (with caution, can cause stomach upset)",
+    "description": "A yellowish mushroom with shaggy scales, growing in clusters on wood.",
+    "habitat": "Decaying hardwood stumps and logs",
+    "uses": ["Culinary (requires thorough cooking)"]
+  },
+  {
+    "name": "Sheathed Woodtuft",
+    "scientific_name": "Kuehneromyces mutabilis",
+    "edibility": "Edible (but easily confused with deadly Galerina)",
+    "description": "A small, brown mushroom with a ring on the stem, growing in clusters on wood.",
+    "habitat": "Decaying hardwood logs and stumps",
+    "uses": ["Culinary (must be properly identified)"]
+  },
+  {
+    "name": "Silky Rosegill",
+    "scientific_name": "Volvariella bombycina",
+    "edibility": "Edible (but rare)",
+    "description": "A beautiful white mushroom with a silky cap and pink gills, growing on wood.",
+    "habitat": "Dead hardwood trees",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Silverleaf Fungus",
+    "scientific_name": "Chondrostereum purpureum",
+    "edibility": "Inedible (pathogenic)",
+    "description": "A purple-silvery crust fungus that causes silver leaf disease in trees.",
+    "habitat": "Dead or dying hardwood branches",
+    "toxicity": ["Harms fruit trees (e.g., plum, cherry)"]
+  },
+  {
+    "name": "Slender Parasol",
+    "scientific_name": "Macrolepiota mastoidea",
+    "edibility": "Edible",
+    "description": "A tall, slender mushroom with a scaly cap and a snake-like patterned stem.",
+    "habitat": "Grasslands and open woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Slimy Waxcap",
+    "scientific_name": "Hygrocybe irrigata",
+    "edibility": "Edible (but slimy texture)",
+    "description": "A small, yellow-orange mushroom with a sticky, slimy cap.",
+    "habitat": "Unfertilized grasslands and mossy areas",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Slippery Jack",
+    "scientific_name": "Suillus luteus",
+    "edibility": "Edible (requires peeling the slimy cap)",
+    "description": "A brown-capped bolete with a slimy surface and yellow pores.",
+    "habitat": "Pine forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Smoky Bracket",
+    "scientific_name": "Bjerkandera adusta",
+    "edibility": "Inedible (too tough)",
+    "description": "A grayish bracket fungus with a smoky appearance, growing on dead wood.",
+    "habitat": "Dead hardwood logs and stumps",
+    "uses": ["Dye-making (produces gray colors)"]
+  },
+  {
+    "name": "Snakeskin Grisette",
+    "scientific_name": "Amanita ceciliae",
+    "edibility": "Edible (but easily confused with deadly Amanitas)",
+    "description": "A brownish Amanita with a snakeskin-like pattern on the stem.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary (caution advised)"]
+  },
+  {
+    "name": "Snowy Waxcap",
+    "scientific_name": "Cuphophyllus virgineus",
+    "edibility": "Edible (but bland)",
+    "description": "A pure white, waxy mushroom found in old grasslands.",
+    "habitat": "Unfertilized meadows and lawns",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Spectacular Rustgill",
+    "scientific_name": "Gymnopilus junonius",
+    "edibility": "Toxic (hallucinogenic)",
+    "description": "A large, orange mushroom with rusty brown spores.",
+    "habitat": "Dead hardwood logs and stumps",
+    "toxicity": ["Psilocybin-like compounds"],
+    "effects": ["Hallucinations", "Nausea"]
+  },
+  {
+    "name": "Splendid Waxcap",
+    "scientific_name": "Hygrocybe splendidissima",
+    "edibility": "Edible (but rare)",
+    "description": "A bright red-orange mushroom with a waxy texture.",
+    "habitat": "Old, unfertilized grasslands",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Splitgill",
+    "scientific_name": "Schizophyllum commune",
+    "edibility": "Edible (but tough, more common in Asian cuisine)",
+    "description": "A small, fan-shaped mushroom with gills that split lengthwise.",
+    "habitat": "Dead hardwood branches",
+    "uses": ["Medicinal (immune-modulating properties)"]
+  },
+  {
+    "name": "Spotted Toughshank",
+    "scientific_name": "Rhodocollybia maculata",
+    "edibility": "Inedible (too bitter)",
+    "description": "A white mushroom with reddish spots and a tough stem.",
+    "habitat": "Coniferous woodlands",
+    "toxicity": ["Bitter taste deters consumption"]
+  },
+  {
+    "name": "Spring Fieldcap",
+    "scientific_name": "Agrocybe praecox",
+    "edibility": "Edible (with caution)",
+    "description": "A small, brown mushroom that appears in spring, often in grassy areas.",
+    "habitat": "Lawns, wood edges, and gardens",
+    "uses": ["Culinary (must be properly identified)"]
+  },
+  {
+    "name": "St. George's Mushroom",
+    "scientific_name": "Calocybe gambosa",
+    "edibility": "Edible (prized)",
+    "description": "A thick, white mushroom with a mealy odor, fruiting around St. George's Day (April).",
+    "habitat": "Grasslands, hedgerows, and woodland edges",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Stinkhorn",
+    "scientific_name": "Phallus impudicus",
+    "edibility": "Edible (when young, but foul-smelling when mature)",
+    "description": "A phallic-shaped mushroom that emits a strong rotting odor to attract flies.",
+    "habitat": "Woodlands, gardens, and mulch beds",
+    "uses": ["Ornamental (despite the smell)"]
+  },
+  {
+    "name": "Stinking Dapperling",
+    "scientific_name": "Lepiota cristata",
+    "edibility": "Toxic",
+    "description": "A small, white mushroom with a scaly cap and a foul odor.",
+    "habitat": "Lawns, gardens, and woodchip mulch",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Stubble Rosegill",
+    "scientific_name": "Volvopluteus gloiocephalus",
+    "edibility": "Edible (but mediocre)",
+    "description": "A pale mushroom with pink gills and a volva at the base.",
+    "habitat": "Grasslands, gardens, and compost heaps",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Stump Puffball",
+    "scientific_name": "Apioperdon pyriforme",
+    "edibility": "Edible (when young and white inside)",
+    "description": "A small, pear-shaped puffball that grows in clusters on decaying wood.",
+    "habitat": "Dead hardwood stumps and logs",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Suede Bolete",
+    "scientific_name": "Xerocomus subtomentosus",
+    "edibility": "Edible (but mediocre)",
+    "description": "A brownish bolete with a velvety cap and yellow pores.",
+    "habitat": "Deciduous and coniferous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Sulphur Tuft",
+    "scientific_name": "Hypholoma fasciculare",
+    "edibility": "Toxic",
+    "description": "A bright yellow-green mushroom that grows in dense clusters on wood.",
+    "habitat": "Dead hardwood stumps and logs",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea", "Liver damage in severe cases"]
+  },
+  {
+    "name": "Summer Bolete",
+    "scientific_name": "Boletus reticulatus",
+    "edibility": "Edible",
+    "description": "A choice edible bolete with a brown, net-like pattern on its stem. Appears earlier in the season than other boletes.",
+    "habitat": "Deciduous forests, especially under oak",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Tawny Funnel",
+    "scientific_name": "Lepista flaccida",
+    "edibility": "Edible",
+    "description": "Orange-brown funnel-shaped mushroom with a depressed center and decurrent gills.",
+    "habitat": "Coniferous and mixed woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Tawny Grisette",
+    "scientific_name": "Amanita fulva",
+    "edibility": "Edible (with caution)",
+    "description": "Orange-brown mushroom with striated cap margins and a sack-like volva. No ring present.",
+    "habitat": "Deciduous forests",
+    "warning": "Must be distinguished from poisonous Amanitas"
+  },
+  {
+    "name": "Terracotta Hedgehog",
+    "scientific_name": "Hydnum rufescens",
+    "edibility": "Edible",
+    "description": "Smaller relative of the hedgehog fungus with terracotta-colored caps and spines underneath.",
+    "habitat": "Coniferous forests",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "The Blusher",
+    "scientific_name": "Amanita rubescens",
+    "edibility": "Edible (must be cooked)",
+    "description": "Pinkish-brown Amanita that bruises red when damaged. Must be thoroughly cooked to destroy toxins.",
+    "habitat": "Deciduous and coniferous forests",
+    "warning": "Contains heat-sensitive toxins"
+  },
+  {
+    "name": "The Deceiver",
+    "scientific_name": "Laccaria laccata",
+    "edibility": "Edible",
+    "description": "Variable colored mushroom that 'deceives' foragers with its changing appearance.",
+    "habitat": "Various woodland types",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "The Goblet",
+    "scientific_name": "Pseudoclitocybe cyathiformis",
+    "edibility": "Edible",
+    "description": "Deeply funnel-shaped mushroom resembling a wine goblet, with dark brown coloration.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "The Miller",
+    "scientific_name": "Clitopilus prunulus",
+    "edibility": "Edible",
+    "description": "White, mealy-scented mushroom with decurrent gills that turn pink at maturity.",
+    "habitat": "Grasslands and woodland edges",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "The Prince",
+    "scientific_name": "Agaricus augustus",
+    "edibility": "Edible",
+    "description": "Large, aromatic mushroom with scaly brown cap and almond scent. Considered a choice edible.",
+    "habitat": "Woodland edges and gardens",
+    "uses": ["Gourmet culinary"]
+  },
+  {
+    "name": "The Sickener",
+    "scientific_name": "Russula emetica",
+    "edibility": "Poisonous",
+    "description": "Bright red mushroom with pure white gills and extremely acrid taste.",
+    "habitat": "Coniferous forests",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Thimble Morel",
+    "scientific_name": "Verpa conica",
+    "edibility": "Edible (with caution)",
+    "description": "Bell-shaped morel relative with a thimble-like cap hanging free from the stem.",
+    "habitat": "Moist woodlands",
+    "warning": "Must be cooked thoroughly; some report sensitivities"
+  },
+  {
+    "name": "Tripe Fungus",
+    "scientific_name": "Auricularia mesenterica",
+    "edibility": "Inedible",
+    "description": "Rubbery, brain-like fungus resembling tripe meat. Grows in overlapping clusters.",
+    "habitat": "Dead hardwood logs"
+  },
+  {
+    "name": "Trooping Funnel",
+    "scientific_name": "Infundibulicybe geotropa",
+    "edibility": "Edible",
+    "description": "Large, cream-colored funnel mushroom that often grows in fairy rings.",
+    "habitat": "Grasslands and open woods",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Truffles",
+    "scientific_name": "Tuber spp.",
+    "edibility": "Edible",
+    "description": "Highly prized underground fungi with intense aromas. Hunted with trained dogs or pigs.",
+    "habitat": "Underground near tree roots",
+    "uses": ["Gourmet culinary"],
+    "note": "Includes species like black Périgord and white Alba truffles"
+  },
+  {
+    "name": "Tuberous Polypore",
+    "scientific_name": "Polyporus tuberaster",
+    "edibility": "Inedible",
+    "description": "Tough polypore that grows from sclerotia (hard fungal masses) underground.",
+    "habitat": "Deciduous woodlands"
+  },
+  {
+    "name": "Turkey Tail",
+    "scientific_name": "Trametes versicolor",
+    "edibility": "Inedible (too tough)",
+    "description": "Colorful, fan-shaped bracket fungus with concentric zones of different colors.",
+    "habitat": "Dead hardwood logs",
+    "uses": ["Medicinal (immune support)"]
+  },
+  {
+    "name": "Velvet Shank",
+    "scientific_name": "Flammulina velutipes",
+    "edibility": "Edible",
+    "description": "Clustered orange mushrooms with velvety dark stems. Grows in cold weather.",
+    "habitat": "Dead hardwood trees",
+    "uses": ["Culinary"],
+    "note": "Cultivated version is enoki mushroom"
+  },
+  {
+    "name": "Vermillion Waxcap",
+    "scientific_name": "Hygrocybe miniata",
+    "edibility": "Inedible",
+    "description": "Small, bright red waxcap that fades to orange with age.",
+    "habitat": "Unimproved grasslands"
+  },
+  {
+    "name": "Warted Amanita",
+    "scientific_name": "Amanita rubescens var. annulosulphurea",
+    "edibility": "Poisonous",
+    "description": "Variation of The Blusher with yellow warts and ring. Causes gastrointestinal distress.",
+    "habitat": "Deciduous forests",
+    "toxicity": ["Gastrointestinal irritants"]
+  },
+  {
+    "name": "Weeping Widow",
+    "scientific_name": "Lacrymaria lacrymabunda",
+    "edibility": "Edible (mediocre)",
+    "description": "Brown mushroom with droplets on its gills that resemble tears.",
+    "habitat": "Disturbed ground and grassy areas"
+  },
+  {
+    "name": "White Dapperling",
+    "scientific_name": "Leucoagaricus leucothites",
+    "edibility": "Edible (with caution)",
+    "description": "Pure white mushroom with a smooth cap and pinkish gills when mature.",
+    "habitat": "Lawns and grassy areas",
+    "warning": "Can be confused with deadly white Amanitas"
+  },
+  {
+    "name": "White Domecap",
+    "scientific_name": "Leucocybe connata",
+    "edibility": "Edible (with caution)",
+    "description": "A small white mushroom with a convex to flat cap, often growing in clusters.",
+    "habitat": "Grasslands, wood edges, and disturbed soils",
+    "uses": ["Culinary (must be properly identified)"]
+  },
+  {
+    "name": "White False Death Cap",
+    "scientific_name": "Amanita citrina",
+    "edibility": "Toxic (not deadly)",
+    "description": "A pale yellow to white mushroom resembling the deadly Death Cap but less dangerous.",
+    "habitat": "Deciduous and coniferous forests",
+    "toxicity": ["Bufotenine (a mild toxin)"],
+    "effects": ["Gastrointestinal distress"]
+  },
+  {
+    "name": "White Fibrecap",
+    "scientific_name": "Inocybe geophylla",
+    "edibility": "Toxic",
+    "description": "A small white mushroom with a conical cap and fibrous texture.",
+    "habitat": "Woodlands and grassy areas",
+    "toxicity": ["Muscarine"],
+    "effects": ["Sweating", "Nausea", "Vision problems"]
+  },
+  {
+    "name": "White Saddle",
+    "scientific_name": "Helvella crispa",
+    "edibility": "Edible (when cooked, but caution advised)",
+    "description": "A distinctive mushroom with a white, saddle-shaped cap and deeply ribbed stem.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary (requires thorough cooking)"]
+  },
+  {
+    "name": "Winter Chanterelle",
+    "scientific_name": "Craterellus tubaeformis",
+    "edibility": "Edible (choice)",
+    "description": "A small, funnel-shaped mushroom with a brown cap and yellow stem, fruiting in late autumn/winter.",
+    "habitat": "Coniferous forests, often in moss",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Wood Blewit",
+    "scientific_name": "Lepista nuda",
+    "edibility": "Edible (choice)",
+    "description": "A purple-tinged mushroom with a smooth cap and crowded gills.",
+    "habitat": "Deciduous woodlands, leaf litter",
+    "uses": ["Gourmet cooking"]
+  },
+  {
+    "name": "Wood Mushroom",
+    "scientific_name": "Agaricus silvicola",
+    "edibility": "Edible",
+    "description": "A white to cream-colored mushroom with a pleasant almond scent, similar to the field mushroom.",
+    "habitat": "Deciduous woodlands",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Woodland Inkcap",
+    "scientific_name": "Coprinellus silvaticus",
+    "edibility": "Edible (when young)",
+    "description": "A small, delicate mushroom that deliquesces (turns to ink) as it matures.",
+    "habitat": "Decaying wood in forests",
+    "uses": ["Culinary (must be cooked quickly)"]
+  },
+  {
+    "name": "Woolly Milkcap",
+    "scientific_name": "Lactarius torminosus",
+    "edibility": "Toxic (causes severe stomach upset)",
+    "description": "A pinkish mushroom with woolly edges and white latex that turns yellow.",
+    "habitat": "Under birch trees",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Wrinkled Peach",
+    "scientific_name": "Rhodotus palmatus",
+    "edibility": "Edible (but rare and not highly regarded)",
+    "description": "A beautiful pinkish mushroom with a wrinkled, net-like cap surface.",
+    "habitat": "Decaying hardwood logs",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Yellow False Truffle",
+    "scientific_name": "Rhizopogon luteolus",
+    "edibility": "Edible (but not a true truffle)",
+    "description": "A subterranean fungus resembling a small, yellow potato.",
+    "habitat": "Under pine trees",
+    "uses": ["Culinary"]
+  },
+  {
+    "name": "Yellow Foot Waxcap",
+    "scientific_name": "Hygrocybe flavipes",
+    "edibility": "Edible (but not highly regarded)",
+    "description": "A small yellow mushroom with a waxy texture and slender stem.",
+    "habitat": "Old, unfertilized grasslands",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Yellow Stagshorn",
+    "scientific_name": "Calocera viscosa",
+    "edibility": "Inedible",
+    "description": "A bright yellow, coral-like fungus growing on conifer wood.",
+    "habitat": "Decaying conifer stumps",
+    "uses": ["Ornamental"]
+  },
+  {
+    "name": "Yellow Stainer",
+    "scientific_name": "Agaricus xanthodermus",
+    "edibility": "Toxic",
+    "description": "A mushroom resembling the field mushroom but stains yellow when bruised and has a phenolic odor.",
+    "habitat": "Lawns, parks, and wood edges",
+    "toxicity": ["Gastrointestinal irritants"],
+    "effects": ["Vomiting", "Diarrhea"]
+  },
+  {
+    "name": "Yellow Swamp Brittlegill",
+    "scientific_name": "Russula claroflava",
+    "edibility": "Edible",
+    "description": "A bright yellow mushroom with brittle gills and a mild taste.",
+    "habitat": "Damp birch woodlands",
+    "uses": ["Culinary"]
+  }
+  ]
