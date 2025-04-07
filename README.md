@@ -52,36 +52,6 @@ make install
 
 ---
 
-## Makefile Overview
-
-The `Makefile` handles cross-platform compatibility (Windows/Linux/macOS) and includes the following targets:
-
-- `build` - Builds the frontend
-- `dev` - Starts the frontend dev server
-- `run` - Runs the backend application
-- `install` - Installs Python and frontend dependencies
-- `start` - Full setup + build + run
-
-Environment detection:
-
-```makefile
-ifeq ($(OS),Windows_NT)
-    ACTIVATE=venv\Scripts\activate.bat
-    PYTHON=venv\Scripts\python.exe
-    PIP=venv\Scripts\pip.exe
-    SHELL=cmd
-    .SHELLFLAGS=/C
-else
-    ACTIVATE=. venv/bin/activate
-    PYTHON=venv/bin/python
-    PIP=venv/bin/pip
-    SHELL=/bin/bash
-    .SHELLFLAGS=-c
-endif
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -101,7 +71,7 @@ ForageCompanion32/
 
 ## Tech Stack
 
-- **Frontend**: React/Vite (or similar JS framework)
+- **Frontend**: html/css/typescript (cause I hate react slop)
 - **Backend**: Flask + TensorFlow/Keras
 - **Model**: Custom-trained image classifier for mushrooms
 - **Packaging**: Make + virtualenv
