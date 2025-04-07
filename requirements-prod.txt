@@ -1,0 +1,6 @@
+Flask
+tensorflow
+Werkzeug
+Pillow
+PyYAML
+gunicorn

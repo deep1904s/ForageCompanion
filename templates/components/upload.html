@@ -1,0 +1,25 @@
+<section class="upload-section">
+    <div class="container">
+        <h2>Upload Your Mushroom Image</h2>
+        <form method="post" enctype="multipart/form-data" class="upload-form">
+            <div class="file-upload">
+                <input type="file"
+                       name="file"
+                       id="mushroom_image"
+                       accept=".jpg, .jpeg, .png"
+                       required>
+                <label for="mushroom_image">
+                    <i class="fas fa-cloud-upload-alt"></i>
+                    <span>Choose a file or drag it here</span>
+                </label>
+                <div id="file-preview" class="file-preview"></div>
+            </div>
+            <button type="submit" class="btn primary-btn">Identify Mushroom</button>
+        </form>
+        {% if error %}<div class="error">{{ error }}</div>{% endif %}
+        <div class="disclaimer">
+            <i class="fas fa-exclamation-triangle"></i>
+            <p>Warning: Never consume wild mushrooms based solely on AI identification. Always consult with mycology experts.</p>
+        </div>
+    </div>
+</section>

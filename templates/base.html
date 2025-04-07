@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            {% block title %}ForageCompanion - Mushroom Identification{% endblock %}
+        </title>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+              rel="stylesheet">
+        <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}" />
+        <script src="{{ url_for('static', filename='dist/index.js') }}"></script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href="#">
+                        <i class="fas fa-mushroom"></i> ForageCompanion
+                    </a>
+                </div>
+                <ul class="nav-links">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Community</a>
+                    </li>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            {% block content %}{% endblock %}
+        </main>
+        {% include 'components/footer.html' %}
+    </body>
+</html>
