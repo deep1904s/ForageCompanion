@@ -1,7 +1,6 @@
 import os
 import json
 import numpy as np
-import tensorflow as tf
 from flask import Flask, request, render_template, jsonify, send_from_directory
 from werkzeug.utils import secure_filename
 from tflite_runtime.interpreter import Interpreter
