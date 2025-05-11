@@ -1,12 +1,9 @@
 import os
 import json
 import numpy as np
-import tensorflow as tf
 from flask import Flask, request, render_template, jsonify, send_from_directory
 from werkzeug.utils import secure_filename
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.efficientnet import preprocess_input
+from keras import load_model
 
 # Initialize Flask app
 app = Flask(__name__)
