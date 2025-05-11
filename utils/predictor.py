@@ -7,7 +7,7 @@ import tflite_runtime.interpreter as tflite
 from utils.logger import logger
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "mushroom_classifierV2.tflite")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "mushroom_classifier.tflite")
 METADATA_PATH = os.path.join(BASE_DIR, "models", "metadata.txt")
 DATA_PATH = os.path.join(BASE_DIR, "data.json")
 
