@@ -16,7 +16,7 @@ app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load the trained model
-MODEL_PATH = 'models/mushroom_classifier.tflite'
+MODEL_PATH = 'models/mushroom_classifier.keras'
 interpreter = tflite.Interpreter(model_path=MODEL_PATH)
 interpreter.allocate_tensors()
 
