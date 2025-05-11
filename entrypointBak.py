@@ -1,10 +1,12 @@
 import os
 import json
 import numpy as np
+import tensorflow as tf
 from flask import Flask, request, render_template, jsonify, send_from_directory
 from werkzeug.utils import secure_filename
-import tflite_runtime.interpreter as tflite
-from PIL import Image
+from tensorflow.keras.models import load_model
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.applications.efficientnet import preprocess_input
 
 # Initialize Flask app
 app = Flask(__name__)
@@ -16,13 +18,8 @@ app.config['ALLOWED_EXTENSIONS'] = {'png', 'jpg', 'jpeg'}
 os.makedirs(app.config['UPLOAD_FOLDER'], exist_ok=True)
 
 # Load the trained model
-MODEL_PATH = 'models/mushroom_classifier.tflite'
-interpreter = tflite.Interpreter(model_path=MODEL_PATH)
-interpreter.allocate_tensors()
-
-# Get input and output details
-input_details = interpreter.get_input_details()
-output_details = interpreter.get_output_details()
+MODEL_PATH = 'models/mushroom_classifierV2.keras'
+model = load_model(MODEL_PATH)
 
 # Get class names from the metadata file
 with open('models/metadata.txt', 'r') as file:
@@ -43,26 +40,14 @@ mushroom_data = load_mushroom_data()
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['ALLOWED_EXTENSIONS']
 
-# Fixed predict_mushroom function using TFLite interpreter
+# Update the predict_mushroom function to use JSON data only
 def predict_mushroom(img_path):
-    # Load and preprocess image
-    img = Image.open(img_path).resize((299, 299))
-    img_array = np.array(img, dtype=np.float32)
+    img = image.load_img(img_path, target_size=(299, 299))
+    img_array = image.img_to_array(img)
     img_array = np.expand_dims(img_array, axis=0)
+    img_array = preprocess_input(img_array)
     
-    # Normalize image (similar to what preprocess_input would do)
-    img_array = img_array / 127.5 - 1
-    
-    # Set the input tensor
-    interpreter.set_tensor(input_details[0]['index'], img_array)
-    
-    # Run inference
-    interpreter.invoke()
-    
-    # Get the output tensor
-    preds = interpreter.get_tensor(output_details[0]['index'])
-    
-    # Process predictions
+    preds = model.predict(img_array)
     top_indices = np.argsort(preds[0])[-5:][::-1]
     top_predictions = []
     
