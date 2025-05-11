@@ -1,0 +1,26 @@
+{
+  "name": "foragecompanion32",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VedantS-32/ForageCompanion32.git"
+  },
+  "author": "Vedant Shahare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VedantS-32/ForageCompanion32/issues"
+  },
+  "homepage": "https://github.com/VedantS-32/ForageCompanion32#readme",
+  "devDependencies": {
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^6.0.1"
+  }
+}

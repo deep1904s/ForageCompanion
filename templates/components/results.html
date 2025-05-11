@@ -1,0 +1,84 @@
+<section class="results-section">
+    <div class="results-header">
+        <h2>Mushroom Identification Results</h2>
+    </div>
+    {% if image_data %}
+        <div class="uploaded-image-container">
+            <img src="{{ image_data }}" alt="Uploaded mushroom" class="uploaded-image">
+        </div>
+    {% endif %}
+    <div class="species-info">
+        {% for prediction in predictions %}
+            <div class="species-card">
+                <h3>{{ prediction.class_name }}</h3>
+                <div class="confidence-display">
+                    <span>Confidence: {{ "%.1f"|format(prediction.confidence) }}%</span>
+                    <div class="confidence-bar-container">
+                        <div class="confidence-bar" style="width: {{ prediction.confidence }}%;"></div>
+                    </div>
+                </div>
+                <div class="species-details">
+                    <div class="species-info-item">
+                        <h4>Scientific Name</h4>
+                        <p>{{ prediction.info.scientific_name if prediction.info and prediction.info.scientific_name else 'Unknown' }}</p>
+                    </div>
+                    <div class="species-info-item">
+                        <h4>Edibility</h4>
+                        <span class="edibility {% if prediction.info and prediction.info.edibility %} {% if 'edible' in prediction.info.edibility.lower() %}edible {% elif 'toxic' in prediction.info.edibility.lower() or 'poisonous' in prediction.info.edibility.lower() %}poisonous {% else %}unknown{% endif %} {% else %}unknown{% endif %}">
+                            {{ prediction.info.edibility if prediction.info and prediction.info.edibility else 'Unknown' }}
+                        </span>
+                    </div>
+                    <div class="species-info-item">
+                        <h4>Description</h4>
+                        <p>
+                            {{ prediction.info.description if prediction.info and prediction.info.description else 'No description available' }}
+                        </p>
+                    </div>
+                    <div class="species-info-item">
+                        <h4>Habitat</h4>
+                        <p>{{ prediction.info.habitat if prediction.info and prediction.info.habitat else 'Unknown' }}</p>
+                    </div>
+                    {% if prediction.info and prediction.info.uses %}
+                        <div class="species-info-item">
+                            <h4>Uses</h4>
+                            <ul>
+                                {% if prediction.info.uses is string %}
+                                    <li>{{ prediction.info.uses }}</li>
+                                {% else %}
+                                    {% for use in prediction.info.uses %}<li>{{ use }}</li>{% endfor %}
+                                {% endif %}
+                            </ul>
+                        </div>
+                    {% endif %}
+                    {% if prediction.info and (prediction.info.toxicity or prediction.info.effects) %}
+                        <div class="warning-box">
+                            <h4>
+                                <i class="fas fa-exclamation-triangle"></i> Warnings
+                            </h4>
+                            {% if prediction.info.toxicity %}
+                                <div class="warning-item">
+                                    <strong>Toxins:</strong>
+                                    {% if prediction.info.toxicity is string %}
+                                        {{ prediction.info.toxicity }}
+                                    {% else %}
+                                        {{ prediction.info.toxicity|join(", ") }}
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                            {% if prediction.info.effects %}
+                                <div class="warning-item">
+                                    <strong>Effects:</strong>
+                                    {% if prediction.info.effects is string %}
+                                        {{ prediction.info.effects }}
+                                    {% else %}
+                                        {{ prediction.info.effects|join(", ") }}
+                                    {% endif %}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>

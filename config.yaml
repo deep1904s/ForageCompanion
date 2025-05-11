@@ -1,0 +1,6 @@
+base_dir: .
+max_content_length: 16777216
+allowed_extensions:
+  - png
+  - jpg
+  - jpeg

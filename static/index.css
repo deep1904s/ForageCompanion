@@ -1,0 +1,677 @@
+:root {
+  --primary-color: #3e8e41;
+  --primary-light: #4caf50;
+  --primary-dark: #2e6830;
+  --secondary-color: #8e6d3e;
+  --danger-color: #e74c3c;
+  --warning-color: #f39c12;
+  --text-color: #333;
+  --bg-light: #f9f9f9;
+  --bg-dark: #333;
+  --border-radius: 6px;
+  --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Technology Section */
+.technology-section {
+  background-color: var(--white);
+  padding: 60px 20px;
+}
+
+.technology-section h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.ai-process {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: 40px 0;
+}
+
+.process-step {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  background: #f8f8f8;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.step-number {
+  background-color: var(--primary-color);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  text-emphasis-color: white;
+  font-size: 1.2rem;
+  flex-shrink: 0;
+}
+/* Safety Notice Section */
+.disclaimer-section {
+  padding: 40px 20px;
+  background-color: rgba(146, 141, 47, 0.1);
+  margin: 0 auto;
+}
+
+.disclaimer-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border-left: 4px solid var(--primary-color);
+  background-color: var(--white);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 0 6px 6px 0;
+}
+
+.disclaimer-content h3 {
+  color: var(--primary-dark);
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.disclaimer-content h3 i {
+  font-size: 1.5rem;
+  color: var(--warning-color);
+}
+
+.disclaimer-content p {
+  margin-bottom: 15px;
+}
+
+.disclaimer-content ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.disclaimer-content li {
+  margin-bottom: 8px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .process-step {
+    flex-direction: column;
+  }
+
+  .step-number {
+    margin-bottom: 10px;
+  }
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Header & Navigation */
+header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo a {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin-left: 20px;
+}
+
+.nav-links a {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+/* Flash Messages */
+.flash-messages {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.flash-message {
+  padding: 10px 15px;
+  background-color: var(--warning-color);
+  color: white;
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #2e6830; /* Fallback if image doesn't load */
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* Upload Section */
+.upload-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.upload-section h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.upload-form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.file-upload {
+  border: 2px dashed #ccc;
+  border-radius: var(--border-radius);
+  padding: 40px 20px;
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.file-upload:hover {
+  border-color: var(--primary-color);
+}
+
+.file-upload input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.file-upload label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  pointer-events: none;
+}
+
+.file-upload i {
+  font-size: 48px;
+  color: var(--primary-color);
+}
+
+.file-preview {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.file-preview img {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.file-preview p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: var(--border-radius);
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.primary-btn:hover {
+  background-color: var(--primary-dark);
+  text-decoration: none;
+}
+
+.secondary-btn {
+  background-color: #f5f5f5;
+  color: var(--text-color);
+  border: 1px solid #ddd;
+}
+
+.secondary-btn:hover {
+  background-color: #e5e5e5;
+  text-decoration: none;
+}
+
+.disclaimer {
+  margin: 30px auto;
+  padding: 15px;
+  background-color: rgba(243, 156, 18, 0.1);
+  border-left: 4px solid var(--warning-color);
+  max-width: 600px;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.disclaimer i {
+  font-size: 24px;
+  color: var(--warning-color);
+}
+
+/* Features Section */
+.features {
+  background-color: #f5f5f5;
+  padding: 60px 20px;
+}
+
+.features h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 2rem;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.feature-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+.feature-card i {
+  font-size: 40px;
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.feature-card h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+/* Results Section */
+.results-section {
+  padding: 40px 20px;
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  margin: 40px auto;
+  max-width: 1000px;
+}
+
+.results-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.results-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.result-image {
+  flex: 1;
+  min-width: 300px;
+}
+
+.result-image img {
+  max-width: 100%;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.result-details {
+  flex: 1;
+  min-width: 300px;
+}
+
+.prediction-list {
+  margin-top: 20px;
+}
+
+.prediction-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.confidence-bar-container {
+  width: 100%;
+  background-color: #eee;
+  border-radius: 10px;
+  margin: 8px 0 15px;
+  overflow: hidden;
+}
+
+.confidence-bar {
+  height: 20px;
+  background-color: var(--primary-color);
+  border-radius: 10px;
+}
+
+.error {
+  color: var(--danger-color);
+  text-align: center;
+  margin: 20px 0;
+  font-weight: bold;
+}
+
+/* Species Information Section */
+.species-info {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.species-info h3 {
+  color: var(--primary-color);
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 8px;
+}
+
+.species-info-item {
+  margin-bottom: 15px;
+}
+
+.species-info-item h4 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: var(--secondary-color);
+}
+
+.species-info-item p {
+  margin-bottom: 8px;
+}
+
+.edibility {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.edible {
+  background-color: rgba(62, 142, 65, 0.2);
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-color);
+}
+
+.poisonous {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+}
+
+.unknown {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.common-names {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.common-name-tag {
+  background-color: #e5e5e5;
+  padding: 3px 10px;
+  border-radius: 12px;
+  font-size: 0.9rem;
+}
+
+.toxic-lookalikes {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: rgba(231, 76, 60, 0.1);
+  border-left: 4px solid var(--danger-color);
+  border-radius: 4px;
+}
+/* Add to your existing styles.css */
+.species-card {
+  background-color: white;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.species-card h3 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  border-bottom: 2px solid var(--primary-light);
+  padding-bottom: 10px;
+}
+
+.confidence-display {
+  margin-bottom: 20px;
+}
+
+.species-details {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.species-info-item h4 {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+}
+
+.species-info-item p,
+.species-info-item ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.species-info-item li {
+  margin-bottom: 5px;
+}
+
+.warning-box {
+  background-color: rgba(231, 76, 60, 0.1);
+  border-left: 4px solid var(--danger-color);
+  padding: 15px;
+  border-radius: 4px;
+  grid-column: 1 / -1;
+}
+
+.warning-box h4 {
+  color: var(--danger-color);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.warning-item {
+  margin-bottom: 10px;
+}
+
+.edibility {
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.edibility.edible {
+  background-color: rgba(62, 142, 65, 0.2);
+  color: var(--primary-dark);
+  border: 1px solid var(--primary-color);
+}
+
+.edibility.poisonous {
+  background-color: rgba(231, 76, 60, 0.2);
+  color: var(--danger-color);
+  border: 1px solid var(--danger-color);
+}
+
+.edibility.unknown {
+  background-color: rgba(243, 156, 18, 0.2);
+  color: var(--warning-color);
+  border: 1px solid var(--warning-color);
+}
+
+.toxic-lookalikes h4 {
+  color: var(--danger-color);
+  margin-bottom: 10px;
+}
+
+.toxic-lookalikes ul {
+  padding-left: 20px;
+}
+
+.toxic-lookalikes li {
+  margin-bottom: 5px;
+}
+
+/* Image display in results section */
+.uploaded-image-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.uploaded-image {
+  max-width: 100%;
+  max-height: 300px;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+/* Footer */
+footer {
+  background-color: var(--bg-dark);
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 60px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .results-container {
+    flex-direction: column;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}

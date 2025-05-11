@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "ESNext",
+		"outDir": "dist",
+		"strict": true,
+		"baseUrl": ".",
+		"paths": {
+			"@/*": [
+				"static/*",
+				"node_modules/*"
+			]
+		},
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": [
+		"static/**/*"
+	]
+}
