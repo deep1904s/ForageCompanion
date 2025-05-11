@@ -3,7 +3,7 @@ import json
 import numpy as np
 from flask import Flask, request, render_template, jsonify, send_from_directory
 from werkzeug.utils import secure_filename
-from tflite_runtime.interpreter import Interpreter
+import tflite_runtime.interpreter as tflite
 
 # Initialize Flask app
 app = Flask(__name__)
