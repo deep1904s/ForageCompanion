@@ -5,7 +5,6 @@ from flask import Flask, request, render_template
 from utils.predictor import predict_mushroom_from_stream
 from utils import logger, allowed_file
 from config import app_config
->>>>>>> c42850356a6ad21264d33d1b78ac81b121fafd72
 
 app = Flask(__name__)
 app.config.from_mapping(

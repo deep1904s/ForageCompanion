@@ -2,19 +2,19 @@ import os
 import json
 import numpy as np
 from PIL import Image
-from tensorflow.keras.models import load_model
-from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.efficientnet import preprocess_input
+import tflite_runtime.interpreter as tflite
 
 from utils.logger import logger
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-MODEL_PATH = os.path.join(BASE_DIR, "models", "mushroom_classifierV2.keras")
+MODEL_PATH = os.path.join(BASE_DIR, "models", "mushroom_classifierV2.tflite")
 METADATA_PATH = os.path.join(BASE_DIR, "models", "metadata.txt")
 DATA_PATH = os.path.join(BASE_DIR, "data.json")
 
 logger.info("Loading model from %s", MODEL_PATH)
-MODEL = load_model(MODEL_PATH)
+interpreter = tflite.Interpreter(model_path=MODEL_PATH)
+interpreter.allocate_tensors()
+MODEL = interpreter
 
 logger.info("Loading class metadata from %s", METADATA_PATH)
 with open(METADATA_PATH, "r") as file:
